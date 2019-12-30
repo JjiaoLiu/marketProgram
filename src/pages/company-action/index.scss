@@ -1,0 +1,35 @@
+.company-action {
+  .form-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f3f3f3;
+    min-height: 88px;
+    padding: 0 30px;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 42px;
+
+    .label {
+      flex: 0 0 160px;
+    }
+  }
+
+  .btn_submit {
+    width: 100%;
+    height: 88px;
+    font-size: 32px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 88px;
+    border-radius: 0;
+    background-color: #FF9066;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  .flex-1 {
+    flex: 1;
+  }
+}

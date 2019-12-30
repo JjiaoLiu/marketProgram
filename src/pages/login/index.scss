@@ -1,0 +1,82 @@
+
+.form {
+  .form-body {
+    margin: 0 auto;
+    width: 600px;
+    padding-top: 50px;
+  }
+
+  .form-label {
+    font-size: 24px;
+    font-weight: 400;
+    color: #535353;
+    line-height: 33px;
+    padding-left: 30px;
+  }
+
+  .form-item {
+    position: relative;
+    display: block;
+    padding-bottom: 26px;
+  }
+
+  .form-checked {
+    width: 24px;
+    height: 24px;
+    margin-left: 40px;
+  }
+
+  .form-input {
+    border-radius: 47px;
+    border: 1Px solid rgba(208, 208, 208, 1);
+    padding: 22px 94px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45px;
+
+    &::placeholder {
+      color: rgba(159, 159, 159, 1);
+    }
+  }
+
+  &-icon-fixed {
+    position: absolute;
+    left: 34px;
+    top: 25px;
+  }
+
+  .form-item-submit {
+    margin-top: 26px;
+  }
+}
+
+.form-submit {
+  text-align: center;
+  font-size: 32px;
+  line-height: 88px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  height: 88px;
+  border-radius: 44px;
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff9066;
+  cursor: pointer;
+}
+
+.logo-login {
+  width: 358px;
+  height: 358px;
+  margin: 0 auto;
+  display: block;
+}
+
+.icon_account {
+  width: 35px;
+  height: 38px;
+}
+
+.icon_password {
+  width: 36px;
+  height: 42px;
+}

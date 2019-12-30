@@ -1,0 +1,112 @@
+.company {
+  background: #f3f3f3;
+
+  .detail-wrap {
+    padding-bottom: 20px;
+  }
+
+  .detail {
+    background-color: white;
+    padding: 45px 30px 0 30px;
+
+    .companyName {
+      font-size: 32px;
+      font-weight: 500;
+      color: rgba(51, 51, 51, 1);
+      line-height: 45px;
+    }
+
+    .detail-2 {
+      display: flex;
+      padding: 11px 0;
+    }
+
+    .detail-21 {
+      font-size: 26px;
+      font-weight: 400;
+      color: rgba(119, 119, 119, 1);
+      line-height: 36px;
+      margin-left: 5Px;
+      word-break: break-all;
+    }
+
+    .detail-3 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      padding: 11px 0;
+    }
+
+    .detail-31 {
+      font-size: 26px;
+      font-weight: 400;
+      color: rgba(119, 119, 119, 1);
+      line-height: 37px;
+      margin-left: 5Px;
+    }
+
+    .detail-32 {
+      display: inline-flex;
+      align-items: center;
+      flex-direction: row;
+    }
+
+    .detail-1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-bottom: 11px;
+    }
+
+    .detail-11 {
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+
+    .detail-41 {
+      font-size: 26px;
+      font-weight: 400;
+      color: rgba(119, 119, 119, 1);
+      line-height: 37px;
+      padding: 11px 0;
+    }
+
+    .btn-edit {
+      height: 45px;
+      width: 45px;
+      text-align: center;
+    }
+
+    .btn-tel {
+      margin-left: 17px;
+      width: 100px;
+      height: 44px;
+      border-radius: 22px;
+      border: 1Px solid rgba(196, 196, 196, 1);
+      font-size: 26px;
+      font-weight: 400;
+      color: rgba(145, 145, 145, 1);
+      line-height: 44px;
+      padding: 0;
+      background: #ffffff;
+    }
+
+
+    .btn_add {
+      width: 630px;
+      height: 74px;
+      border-radius: 44px;
+      border: 1Px solid rgba(173, 173, 173, 1);
+      color: rgba(51, 51, 51, 1);
+      line-height: 74px;
+      font-size: 30px;
+      background-color: #ffffff;
+      font-weight: 400;
+      margin-top: 29px;
+    }
+
+  }
+}

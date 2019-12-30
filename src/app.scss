@@ -1,0 +1,401 @@
+button {
+  outline: none;
+  border: none;
+}
+
+.error-top {
+  line-height: 60px;
+  font-size: 28px;
+  color: white;
+  background-color: red;
+  padding: 0 30px;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 34px;
+  background-color: #53d59e;
+  height: 34px;
+  display: inline-block;
+  padding: 0 9px;
+  border-radius: 5px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.btn {
+  margin-left: 17px;
+  height: 44px;
+  padding: 0 15px;
+  border-radius: 22px;
+  border: 1Px solid rgba(196, 196, 196, 1);
+  font-size: 26px;
+  font-weight: 400;
+  color: rgba(145, 145, 145, 1);
+  line-height: 42px;
+  background: #ffffff;
+  display: inline-block;
+}
+
+.icon_edit {
+  width: 28px;
+  height: 24px;
+}
+
+.icon_level {
+  width: 44px;
+  height: 42px;
+  background-image: url("./icon_level.png");
+  background-size: cover;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(255, 228, 124, 1);
+  line-height: 40px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.icon_bus {
+  width: 29px;
+  height: 32px;
+  flex: 0 0 29px;
+}
+
+.icon_location {
+  width: 27px;
+  height: 32px;
+  flex: 0 0 27px;
+}
+
+.icon_contact {
+  width: 29px;
+  height: 32px;
+}
+
+.icon_phone {
+  width: 22px;
+  height: 32px;
+}
+
+.icon_add {
+  width: 25px;
+  height: 25px;
+}
+
+.icon_female {
+  width: 23px;
+  height: 33px;
+  margin-right: 8px;
+}
+
+.icon_male {
+  width: 18px;
+  height: 34px;
+  margin-right: 20px;
+}
+
+.icon_calendar {
+  width: 23px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.icon_right {
+  width: 14px;
+  height: 24px;
+}
+
+.icon_recruit {
+  width: 49px;
+  height: 34px;
+}
+
+.icon_shop {
+  width: 38px;
+  height: 36px;
+}
+
+.icon_filter {
+  width: 32px;
+  height: 31px;
+}
+
+.icon_menu {
+  width: 35px;
+  height: 36px;
+}
+
+.icon_sure {
+  width: 60px;
+  height: 57px;
+}
+
+.icon_sured {
+  width: 61px;
+  height: 54px;
+}
+
+.icon_stay {
+  width: 63px;
+  height: 54px;
+}
+
+.icon_invalid {
+  width: 48px;
+  height: 54px;
+}
+
+.icon_setting {
+  width: 37px;
+  height: 35px;
+}
+
+.icon_back {
+  width: 14px;
+  height: 24px;
+}
+
+.icon_avatar_default {
+  width: 120px;
+  height: 120px;
+}
+
+.icon_success {
+  width: 142px;
+  height: 142px;
+}
+
+.tab-header {
+  background-color: white;
+  height: 80px;
+  margin-top: 30px;
+  border-top: 1px solid #f3f3f3;
+
+  &_item {
+    text-align: center;
+  }
+
+  &_body {
+    display: inline-block;
+    height: 69px;
+    padding-top: 5px;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgba(119, 119, 119, 1);
+    line-height: 69px;
+    border-bottom: 6px solid #ffffff;
+    border-radius: 3px;
+
+    &-active {
+      font-weight: bold;
+      color: rgba(51, 51, 51, 1);
+      border-bottom: 6px solid #FF9066;
+    }
+  }
+}
+
+.pop_fixed-wrap {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  font-size: 26px;
+  color: rgba(51, 51, 51, 1);
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  &.flex-end {
+    justify-content: flex-end;
+    align-items: start;
+  }
+}
+
+.pop_fixed-center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.pop_fixed-delete-body {
+  width: 520px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pop_fixed-filter-body {
+  width: 520px;
+  background-color: white;
+  padding: 0 30px;
+  overflow-y: auto;
+
+
+  .list-wrap {
+    padding: 30px 0;
+  }
+
+  .list-title {
+    height: 42px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(51, 51, 51, 1);
+    line-height: 42px;
+    padding: 4px 0 20px 10px;
+  }
+
+  .list-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .list-item {
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    height: 60px;
+    background: rgba(242, 242, 242, 1);
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 58px;
+    margin: 10px;
+
+    &_active {
+      background-color: #ff9066;
+      color: white;
+    }
+  }
+
+  .btn {
+    width: 232px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 68px;
+    border: none;
+    border-radius: 35px;
+    outline: none;
+    margin-top: 10px;
+
+    &.reset {
+      background-color: #ff9066;
+    }
+
+    &.submit {
+      background-color: #e06b66;
+    }
+  }
+}
+
+.pop_fixed-delete-action {
+  border-top: 1Px solid #f3f3f3;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+
+  .btn-action {
+    font-size: 26px;
+    color: rgba(51, 51, 51, 1);
+    line-height: 79px;
+    border: none;
+    height: 79px;
+    width: 50%;
+  }
+
+  .line {
+    width: 1Px;
+    height: 79px;
+    background: #f3f3f3;
+  }
+}
+
+.job-card {
+  margin: 0 30px 20px 30px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  background: #ffffff;
+  padding: 10px 24px;
+  font-size: 24px;
+  color: rgba(119, 119, 119, 1);
+  line-height: 32px;
+
+  .detail-1, .detail-2, .detail-3, .detail-4 {
+    padding: 10px 0;
+  }
+
+  .detail-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    line-height: 42px;
+  }
+
+  .detail-2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .detail-11 {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    vertical-align: middle;
+  }
+
+  .detail-12 {
+    font-size: 28px;
+    font-weight: 500;
+    color: rgba(255, 144, 102, 1);
+  }
+
+  .tag {
+    height: 32px;
+    border-radius: 4px;
+    border: 1Px solid rgba(155, 155, 155, 1);
+    margin-right: 14px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(155, 155, 155, 1);
+    line-height: 32px;
+    padding: 2px 16px;
+  }
+
+  .detail-3 {
+    justify-content: flex-end;
+  }
+}

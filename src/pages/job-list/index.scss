@@ -1,0 +1,21 @@
+.job-list {
+  background: #f3f3f3;
+
+  .with-filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background: white;
+    padding-right: 30px;
+
+    .tab-header {
+      margin-top: 0;
+    }
+  }
+
+  .btn-filter {
+    padding: 0 20px;
+    border-left: 1Px solid #f3f3f3;
+  }
+}

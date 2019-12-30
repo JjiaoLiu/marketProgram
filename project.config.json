@@ -1,0 +1,102 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "marketprogram",
+	"description": "",
+	"appid": "wxae9afb4c553f00fa",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"libVersion": "2.9.4",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "pages/company/index",
+					"pathName": "pages/company/index",
+					"query": "merchId=45",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "pages/job-detail/index",
+					"pathName": "pages/job-detail/index",
+					"query": "merchId=16&jobId=74",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "pages/job-action/index",
+					"pathName": "pages/job-action/index",
+					"query": "disabled=false&merchId=68&jobId=",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "pages/job-list/index",
+					"pathName": "pages/job-list/index",
+					"query": "current=1",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "pages/company-action/index",
+					"pathName": "pages/company-action/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/home/index",
+					"pathName": "pages/home/index",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

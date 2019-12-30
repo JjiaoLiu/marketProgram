@@ -1,0 +1,132 @@
+.home {
+  background-color: #f3f3f3;
+
+  .info {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 200px;
+    font-size: 37px;
+    font-weight: 500;
+    color: rgba(119, 119, 119, 1);
+    line-height: 52px;
+    padding: 0 30px;
+    margin-bottom: 16px;
+
+    .username {
+      margin-left: 22px;
+    }
+  }
+
+  .work {
+    height: 300px;
+
+
+    .left, .right {
+      display: inline-flex;
+      align-items: center;
+      flex-direction: row;
+    }
+
+    .all {
+      font-size: 26px;
+      color: rgba(186, 186, 186, 1);
+      line-height: 37px;
+      margin-right: 10px;
+    }
+
+    .title {
+      display: flex;
+      background-color: white;
+      padding: 26px 30px;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      margin-bottom: 1px;
+      font-size: 30px;
+      font-weight: 500;
+      color: rgba(83, 83, 83, 1);
+      line-height: 42px;
+
+      .title-txt {
+        margin-left: 20px;
+      }
+    }
+
+    .list {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 40px 0;
+
+      .list-item {
+        position: relative;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .list-title {
+        font-size: 26px;
+        font-weight: 500;
+        color: rgba(90, 90, 90, 1);
+        line-height: 37px;
+        margin-top: 20px;
+      }
+
+      .list-brand {
+        position: absolute;
+        top: -10px;
+        right: 0;
+        font-size: 20px;
+        font-weight: 500;
+        color: rgba(255, 144, 102, 1);
+        line-height: 28px;
+      }
+
+      .list-dot {
+        position: absolute;
+        top: -10px;
+        right: 0;
+        font-size: 20px;
+        font-weight: 500;
+        color: rgba(255, 144, 102, 1);
+        line-height: 28px;
+        width: 20px;
+        height: 20px;
+        background-color: #ff9066;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .system {
+    background-color: white;
+
+    .list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      padding: 26px 30px;
+      border-bottom: 1Px solid #f3f3f3;
+      font-size: 30px;
+      font-weight: 500;
+      color: rgba(83, 83, 83, 1);
+      line-height: 42px;
+
+      .title {
+        margin-left: 18px;
+      }
+
+      .left {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+      }
+    }
+  }
+}
